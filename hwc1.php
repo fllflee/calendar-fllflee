@@ -15,8 +15,6 @@ $datetimenow = date ("Y年 m月 d日 / H 點 i 分");
 
 // 某月
 $month=@$_GET['m']?$_GET['m']:date('n',time());
-$day1=date("j");
-$month1=date("n");
 // 本月總天數
 $days=date('t',strtotime("{$year}-{$month}-1"));
 
@@ -60,7 +58,7 @@ $prevdays1=date('t',strtotime("{$year}-{$prevMonth}-1"));
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
     <title>萬年曆</title>
-    <link rel=stylesheet type="text/css" href="hwc11.css">
+    <link rel=stylesheet type="text/css" href="hwc1.css">
 
 </head>
 <body>
